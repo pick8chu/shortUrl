@@ -1,7 +1,7 @@
 
 ## Intro
-Used FastAPI, python3
-
+This is a short URL backend server made by FastAPI, python3, postgreSQL.
+If the URL is not used longer than 1 month it will be deleted from the database.
 
 ## How to run
 ```
