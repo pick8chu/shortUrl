@@ -45,12 +45,12 @@ def test_shortIdNotExist():
 # # one can use curl / swagger
 # def test_redirect():
 #     shortId = "test1"
-#     response = client.get(f"/r/{shortId}")
+#     response = client.get(f"/{shortId}")
 #     print(response.json())
     
 #     assert response.status_code == 302
 
 def test_redirectShortIdNotExist():
     shortId = "====="
-    response = client.get(f"/r/{shortId}")
+    response = client.get(f"/{shortId}")
     assert response.status_code == 404
