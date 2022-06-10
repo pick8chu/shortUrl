@@ -20,6 +20,6 @@ app.add_middleware(
 )
 
 # schedule job
-@app.on_event("startup")
-async def scheduledAddQuoteList():
-    await schedule.scheduledAddQuoteList()
+# @app.on_event("startup")
+# async def init_schedule():
+#     schedule.init_data()

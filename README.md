@@ -32,8 +32,7 @@ CREATE TABLE public.short_url_mt (
 	id varchar NOT NULL,
 	url varchar NOT NULL,
 	last_used_dtm timestamptz NULL DEFAULT now(),
-	create_dtm timestamptz NULL DEFAULT now(),
-	CONSTRAINT quote_mt_pkey PRIMARY KEY (id)
+	create_dtm timestamptz NULL DEFAULT now()
 );
 ```
 
